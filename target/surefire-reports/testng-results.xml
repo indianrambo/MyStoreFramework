@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-11T14:02:23 IST" name="Suite" finished-at="2023-11-11T14:03:16 IST" duration-ms="53087">
+    <groups>
+    </groups>
+    <test started-at="2023-11-11T14:02:23 IST" name="Test" finished-at="2023-11-11T14:03:16 IST" duration-ms="53087">
+      <class name="com.mystore.testcases.TC_ApplicationForm">
+        <test-method is-config="true" signature="lunchBrowser()[pri:0, instance:com.mystore.testcases.TC_ApplicationForm@2d901eb0]" started-at="2023-11-11T14:02:23 IST" name="lunchBrowser" finished-at="2023-11-11T14:03:11 IST" duration-ms="48042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lunchBrowser -->
+        <test-method signature="verifyForm()[pri:0, instance:com.mystore.testcases.TC_ApplicationForm@2d901eb0]" started-at="2023-11-11T14:03:11 IST" name="verifyForm" finished-at="2023-11-11T14:03:16 IST" duration-ms="4898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForm -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.TC_ApplicationForm@2d901eb0]" started-at="2023-11-11T14:03:16 IST" name="tearDown" finished-at="2023-11-11T14:03:16 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mystore.testcases.TC_ApplicationForm -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

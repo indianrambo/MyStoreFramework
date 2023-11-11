@@ -1,0 +1,9 @@
+com\mystore\utilities\BaseClass.class
+com\mystore\testcases\TC_LoginCredentialVerify.class
+com\mystore\utilities\ReadConfig.class
+com\mystore\testcases\TC_CrossBrowserExecution.class
+com\mystore\testcases\TC_ApplicationForm.class
+com\mystore\pageobject\DashBoardPage.class
+com\mystore\testcases\TC_DashBoard.class
+com\mystore\testcases\TC_UserData.class
+com\mystore\pageobject\FormPage.class

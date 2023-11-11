@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Extra logging related to initialization of Log4j. 
+ Set to debug or trace if log4j initialization is failing. -->
+<Configuration status="warn">
+    <Appenders>
+    	<!-- Console appender configuration -->
+        <Appender name="console" target="SYSTEM_OUT">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Appender>
+    	<!-- Console appender configuration -->
+        <Appender name="file" target="C:\Users\DELL\eclipse-workspace\MyStore\logs\app.logs">
+            <PatternLayout
+                pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Appender>
+    </Appenders>
+    <Loggers>
+    	<!-- Root logger referring to console appender -->
+        <Root level="info" >
+            <AppenderRef ref="file" />
+        </Root>
+    </Loggers>
+</Configuration>
